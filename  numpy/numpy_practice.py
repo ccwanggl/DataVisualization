@@ -3,7 +3,7 @@ import numpy as np
 
 def createArray():
     a = np.array([1, 2, 3])
-    a1 = np.zeros(2)
+    a1 = np.zeros(2, 2)
     a2 = np.ones(2)
     a3 = np.empty(2)
     a4 = np.arange(2, 9, 2)

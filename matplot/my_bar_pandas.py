@@ -6,6 +6,7 @@ import pandas as pd
 
 plt.style.use('fivethirtyeight')
 
+
 def read_plot_with_pandas(filename):
     data = pd.read_csv(filename)
 
